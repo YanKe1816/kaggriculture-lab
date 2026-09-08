@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-08T07:03:18.102042+00:00",
+  "agent_a": "/workspace/kaggriculture-lab/baselines/pasture/main.py",
+  "agent_b": "/workspace/kaggriculture-lab/baselines/router/main.py",
+  "seeds": [
+    0
+  ],
+  "seat_swapped": true,
+  "games": 2,
+  "wins": 0,
+  "ties": 0,
+  "losses": 2,
+  "win_rate": 0.0,
+  "mean_margin": -9260.0,
+  "median_margin": -9260.0,
+  "status_counts": {
+    "DONE": 4
+  },
+  "results": [
+    {
+      "seed": 0,
+      "rewards": [
+        60464.0,
+        67817.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 60464.0,
+      "b_reward": 67817.0,
+      "margin": -7353.0,
+      "outcome": "loss"
+    },
+    {
+      "seed": 0,
+      "rewards": [
+        63297.0,
+        52130.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 52130.0,
+      "b_reward": 63297.0,
+      "margin": -11167.0,
+      "outcome": "loss"
+    }
+  ]
+}
