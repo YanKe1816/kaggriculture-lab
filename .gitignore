@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+replays/
+competition/*.zip
+
+# Reproducible/downloadable binary artifacts
+*.tar.gz
+*.zip
+*.pkl
+*.npy
+*.npz

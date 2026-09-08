@@ -1,0 +1,36 @@
+{
+  "submission_id": 56093103,
+  "snapshot_at": "2026-09-08T11:25:00Z",
+  "rating": 1987.9,
+  "completed_episodes": 77,
+  "public_episodes": 76,
+  "downloaded_recent_public_games": 10,
+  "wins": 5,
+  "ties": 2,
+  "losses": 3,
+  "loss_episode_ids": [
+    106761638,
+    106759731,
+    106755835
+  ],
+  "largest_loss": {
+    "episode_id": 106755835,
+    "seat": 0,
+    "margin": -19404,
+    "turn_226_shops": [
+      "ICE_CREAM_SHOP",
+      "FARMERS_MARKET",
+      "PIZZA_SHOP"
+    ],
+    "turn_360_shops": [
+      "ICE_CREAM_SHOP",
+      "FARMERS_MARKET",
+      "PIZZA_SHOP",
+      "PET_CAFE",
+      "PET_CAFE"
+    ],
+    "turn_360_carrot_price": 43,
+    "turn_719_carrot_price": 65,
+    "finding": "The MAIN branch cannot reach YARN_CARROT at turn 360 because prefix compatibility only permits that switch from YARN. Farmers Market was public at turn 226, but the yarn-only bridge left the agent on MAIN before two Pet Cafes made carrot demand extreme."
+  }
+}

@@ -1,0 +1,698 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-08T11:11:38.189861+00:00",
+  "agent_a": "/workspace/kaggriculture-lab/baselines/router/main.py",
+  "agent_b": "/workspace/kaggriculture-lab/baselines/v16/main.py",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "seat_swapped": true,
+  "games": 40,
+  "wins": 40,
+  "ties": 0,
+  "losses": 0,
+  "win_rate": 1.0,
+  "mean_margin": 19397.375,
+  "median_margin": 17741.5,
+  "status_counts": {
+    "DONE": 80
+  },
+  "results": [
+    {
+      "seed": 0,
+      "rewards": [
+        96378.0,
+        73861.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 96378.0,
+      "b_reward": 73861.0,
+      "margin": 22517.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 0,
+      "rewards": [
+        72939.0,
+        97319.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 97319.0,
+      "b_reward": 72939.0,
+      "margin": 24380.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 1,
+      "rewards": [
+        94178.0,
+        81885.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 94178.0,
+      "b_reward": 81885.0,
+      "margin": 12293.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 1,
+      "rewards": [
+        81885.0,
+        94178.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 94178.0,
+      "b_reward": 81885.0,
+      "margin": 12293.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 2,
+      "rewards": [
+        77965.0,
+        54421.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 77965.0,
+      "b_reward": 54421.0,
+      "margin": 23544.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 2,
+      "rewards": [
+        54421.0,
+        77965.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 77965.0,
+      "b_reward": 54421.0,
+      "margin": 23544.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 3,
+      "rewards": [
+        95810.0,
+        67095.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 95810.0,
+      "b_reward": 67095.0,
+      "margin": 28715.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 3,
+      "rewards": [
+        67095.0,
+        95810.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 95810.0,
+      "b_reward": 67095.0,
+      "margin": 28715.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 4,
+      "rewards": [
+        64679.0,
+        46526.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 64679.0,
+      "b_reward": 46526.0,
+      "margin": 18153.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 4,
+      "rewards": [
+        46526.0,
+        64679.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 64679.0,
+      "b_reward": 46526.0,
+      "margin": 18153.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 5,
+      "rewards": [
+        76480.0,
+        60858.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 76480.0,
+      "b_reward": 60858.0,
+      "margin": 15622.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 5,
+      "rewards": [
+        60858.0,
+        76480.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 76480.0,
+      "b_reward": 60858.0,
+      "margin": 15622.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 6,
+      "rewards": [
+        135787.0,
+        119618.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 135787.0,
+      "b_reward": 119618.0,
+      "margin": 16169.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 6,
+      "rewards": [
+        119618.0,
+        135787.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 135787.0,
+      "b_reward": 119618.0,
+      "margin": 16169.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 7,
+      "rewards": [
+        71321.0,
+        44363.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 71321.0,
+      "b_reward": 44363.0,
+      "margin": 26958.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 7,
+      "rewards": [
+        55291.0,
+        73218.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 73218.0,
+      "b_reward": 55291.0,
+      "margin": 17927.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 8,
+      "rewards": [
+        78778.0,
+        57278.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 78778.0,
+      "b_reward": 57278.0,
+      "margin": 21500.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 8,
+      "rewards": [
+        57278.0,
+        78778.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 78778.0,
+      "b_reward": 57278.0,
+      "margin": 21500.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 9,
+      "rewards": [
+        70693.0,
+        53137.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 70693.0,
+      "b_reward": 53137.0,
+      "margin": 17556.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 9,
+      "rewards": [
+        53137.0,
+        70693.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 70693.0,
+      "b_reward": 53137.0,
+      "margin": 17556.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 10,
+      "rewards": [
+        76111.0,
+        61384.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 76111.0,
+      "b_reward": 61384.0,
+      "margin": 14727.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 10,
+      "rewards": [
+        61384.0,
+        76111.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 76111.0,
+      "b_reward": 61384.0,
+      "margin": 14727.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 11,
+      "rewards": [
+        86637.0,
+        60225.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 86637.0,
+      "b_reward": 60225.0,
+      "margin": 26412.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 11,
+      "rewards": [
+        72163.0,
+        97732.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 97732.0,
+      "b_reward": 72163.0,
+      "margin": 25569.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 12,
+      "rewards": [
+        99388.0,
+        84536.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 99388.0,
+      "b_reward": 84536.0,
+      "margin": 14852.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 12,
+      "rewards": [
+        83634.0,
+        100558.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 100558.0,
+      "b_reward": 83634.0,
+      "margin": 16924.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 13,
+      "rewards": [
+        161335.0,
+        146654.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 161335.0,
+      "b_reward": 146654.0,
+      "margin": 14681.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 13,
+      "rewards": [
+        146654.0,
+        161335.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 161335.0,
+      "b_reward": 146654.0,
+      "margin": 14681.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 14,
+      "rewards": [
+        92069.0,
+        66826.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 92069.0,
+      "b_reward": 66826.0,
+      "margin": 25243.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 14,
+      "rewards": [
+        66826.0,
+        92069.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 92069.0,
+      "b_reward": 66826.0,
+      "margin": 25243.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 15,
+      "rewards": [
+        114032.0,
+        101335.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 114032.0,
+      "b_reward": 101335.0,
+      "margin": 12697.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 15,
+      "rewards": [
+        101335.0,
+        114032.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 114032.0,
+      "b_reward": 101335.0,
+      "margin": 12697.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 16,
+      "rewards": [
+        143676.0,
+        129605.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 143676.0,
+      "b_reward": 129605.0,
+      "margin": 14071.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 16,
+      "rewards": [
+        129605.0,
+        143676.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 143676.0,
+      "b_reward": 129605.0,
+      "margin": 14071.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 17,
+      "rewards": [
+        125980.0,
+        95159.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 125980.0,
+      "b_reward": 95159.0,
+      "margin": 30821.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 17,
+      "rewards": [
+        95159.0,
+        125980.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 125980.0,
+      "b_reward": 95159.0,
+      "margin": 30821.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 18,
+      "rewards": [
+        52513.0,
+        34162.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 52513.0,
+      "b_reward": 34162.0,
+      "margin": 18351.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 18,
+      "rewards": [
+        34162.0,
+        52513.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 52513.0,
+      "b_reward": 34162.0,
+      "margin": 18351.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 19,
+      "rewards": [
+        63016.0,
+        46981.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": false,
+      "a_reward": 63016.0,
+      "b_reward": 46981.0,
+      "margin": 16035.0,
+      "outcome": "win"
+    },
+    {
+      "seed": 19,
+      "rewards": [
+        46981.0,
+        63016.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "swap": true,
+      "a_reward": 63016.0,
+      "b_reward": 46981.0,
+      "margin": 16035.0,
+      "outcome": "win"
+    }
+  ],
+  "by_agent_a_seat": {
+    "0": {
+      "games": 20,
+      "wins": 20,
+      "ties": 0,
+      "losses": 0,
+      "mean_margin": 19545.85
+    },
+    "1": {
+      "games": 20,
+      "wins": 20,
+      "ties": 0,
+      "losses": 0,
+      "mean_margin": 19248.9
+    }
+  },
+  "abnormal_games": []
+}
